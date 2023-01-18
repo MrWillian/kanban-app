@@ -22,8 +22,8 @@ function TopBar(props) {
                         src="https://randomuser.me/api/portraits/men/75.jpg"
                         width="36" 
                         height="36" 
-                        objectFit='cover' 
                         className=" rounded-full "
+                        alt="Avatar"
                     />
                 </div>
             </div>
