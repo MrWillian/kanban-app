@@ -74,6 +74,9 @@ const Home: NextPage = () => {
 
   return (
     <Layout>
+      <head>
+        <title>Kanban UI</title>
+      </head>
       <div className="p-10">
         {/* Board header */}
         <div className="flex justify-between">
