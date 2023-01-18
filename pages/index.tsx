@@ -130,7 +130,6 @@ const Home: NextPage = () => {
                             <div 
                               {...provider.droppableProps}
                               ref={provider.innerRef}
-                              
                             >
                               <div 
                                 className={`bg-gray-100 p-3 rounded-md shadow-md flex flex-col relative overflow-hidden ${snapshot.isDraggingOver && "bg-green-100"}`}
