@@ -1,27 +1,46 @@
-# Next.js + Tailwind CSS Example
+# Kanban UI App
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.2)](https://tailwindcss.com/blog/tailwindcss-v3-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+It's a Kanban UI clone made with Next JS and TailwindCSS.
+To Drang and Drop elements i used the react-beautiful-dnd lib, that make it more easy to implement.
 
-## Deploy your own
+[Kanban UI.webm](https://user-images.githubusercontent.com/50757994/213258425-c46cfb04-d2aa-414a-aa71-1cd43d2d78ff.webm)
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+Based on the Youtube Video: [Create Kanban UI using NextJS and TailwindCSS in 20 minutes.](https://www.youtube.com/watch?v=ERXS6CROWR4&ab_channel=CodingwithTien)
+Youtube Channel: [Coding with Tien](https://www.youtube.com/@codingwithtien)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+## Getting Started
+
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+
+We will need NPM to manage packages.
+
+* npm
+  ```sh
+  npm install npm@latest -g
+  ```
+
+### Installation
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/MrWillian/kanban-app.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+
 
 ## How to use
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+We will run the project with the Docker.
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-```
+## Using Docker
 
-```bash
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
+1. [Install Docker](https://docs.docker.com/get-docker/) on your machine.
+1. Build your container: `docker build -t kanban-ui-app .`.
+1. Run your container: `docker run -p 3000:3000 kanban-ui-app`.
 
-```bash
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+You can view your images created with `docker images`.
