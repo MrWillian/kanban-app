@@ -44,3 +44,5 @@ We will run the project with the Docker.
 1. Run your container: `docker run -p 3000:3000 kanban-ui-app`.
 
 You can view your images created with `docker images`.
+
+You can run the project accessing localhost:3000
