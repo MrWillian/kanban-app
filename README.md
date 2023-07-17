@@ -45,4 +45,4 @@ We will run the project with the Docker.
 
 You can view your images created with `docker images`.
 
-You can run the project accessing localhost:3000.
+You can run the project accessing localhost:3000!
